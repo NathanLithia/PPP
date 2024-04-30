@@ -1,0 +1,46 @@
+{
+  "mod_elements": [
+    {
+      "name": "PoisonPotatoPotion",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_potato_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/vegakey/poisonpotatopotion/recipes/brewing/PoisonPotatoPotionBrewingRecipe.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "poisonpotatopotion",
+    "modName": "Poison Potato Potion",
+    "version": "1.0.0",
+    "description": "Adds the ability to brew poison potatos into Potions",
+    "author": "VegaKey",
+    "websiteURL": "https://modrinth.com/user/VegaKey",
+    "license": "Public Domain",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "io.github.vegakey.poisonpotatopotion",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

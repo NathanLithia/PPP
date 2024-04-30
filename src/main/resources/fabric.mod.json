@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "poisonpotatopotion",
+  "version": "1.0.0",
+  "name": "Poison Potato Potion",
+  "description": "Adds the ability to brew poison potatos into Potions",
+  "authors": [
+    "VegaKey"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/user/VegaKey",
+    "sources": ""
+  },
+  "license": "Public Domain",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.vegakey.poisonpotatopotion.PoisonpotatopotionMod"
+    ],
+    "client": [
+      "io.github.vegakey.poisonpotatopotion.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}
